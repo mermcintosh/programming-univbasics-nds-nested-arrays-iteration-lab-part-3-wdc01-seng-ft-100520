@@ -25,7 +25,7 @@ def join_nested_strings(mixed_data)
     end
     current_level += 1 # increment our counter by one so we know which row we are looking at
   end
-  p new_sentence
+  p new_sentence.join(" ")
 end
 join_nested_strings(mixed_data)
 
